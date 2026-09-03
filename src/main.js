@@ -11,14 +11,14 @@ const cases = [
   { id:'event', type:'ACTIVITY OPS', category:'activity', year:'2025', title:'一次活动的全流程运营', summary:'从策划、筹备、宣发到现场执行、人员调度与复盘，推进一场小型赛事真正发生。', result:'230 位现场观众', accent:'#ffb25f', cover:'/assets/运营/活动运营.webp', role:'策划 / 宣发 / 执行 / 复盘', proof:'30+ 选手投稿 · 舞台布置 · 人员协调', metrics:[['230','现场观众'],['30+','选手投稿'],['01','完整落地活动']], journey:['策划目标','组织宣发','现场执行','结果复盘'], gallery:[['/assets/运营/活动运营.webp','活动宣传图文与现场项目','活动物料']], detailProof:['活动目标 · 前期筹备 · 宣传推广 · 参赛者沟通','舞台布置 · 人员调度 · 现场流程推进','230 位现场观众 · 30+ 位选手投稿','报名转化、渠道效果和成本数据待补充'], details:[['前期策划','负责活动策划、前期筹备、宣传推广和参赛者沟通，将活动目标拆解为报名、宣发与现场执行任务。'],['现场执行','负责舞台布置、人员调度和现场流程推进，处理活动当天的协作与执行问题。'],['已确认结果','活动从 0 到 1 落地，吸引 230 位现场观众，获得 30+ 位选手投稿。'],['复盘边界','当前重点展示项目推进和执行证据；报名转化、渠道效果和成本数据待补充。']] }
 ]
 
-// Haivis evidence is kept separate from the compact case card so media can be replaced without rewriting the case list.
+// AI 生图 Agent evidence is kept separate from the compact case card so media can be replaced without rewriting the case list.
 Object.assign(cases[0], {
+  title:'AI 生图 Agent 产品运营闭环',
   proof:'4% 付费转化 · 830+ 小红书粉丝 · 100+ 图文视频',
   metrics:[['近 2000','一个运营月新增用户'],['4%','付费转化率'],['100+','图文与视频作品']],
   gallery:[
-    ['/assets/haivis/cover.png','Haivis 官网主视觉','产品表达','image'],
-    ['/assets/haivis/video/haivis-promo-cn.mp4','Haivis 产品宣发动画','Vibe Coding / 动效交付','video'],
-    ['/assets/haivis/video/haivis-website-walkthrough.mp4','Haivis 官网动态页面演示','官网滚动与页面动效','video'],
+    ['/assets/haivis/video/haivis-promo-cn.mp4','AI 生图 Agent 产品宣发动画','Vibe Coding / 动效交付','video'],
+    ['/assets/haivis/video/haivis-website-walkthrough.mp4','AI 生图 Agent 官网动态页面','官网视觉展示','video'],
     ['','第三张运营证据图片','待补充：社群、内容反馈或平台数据','placeholder']
   ],
   details:[
@@ -65,7 +65,7 @@ app.innerHTML = `
         <article class="result-card result-card--content"><div class="result-card-top"><span>01</span><i>CONTENT OPS</i></div><h3>内容运营</h3><p>从选题、制作到平台适配与发布复盘，让内容在具体语境里被看见。</p><div class="result-data"><strong>32<span>万</span></strong><small>抖音阶段性总曝光</small><strong>2500<span>+</span></strong><small>获赞</small><strong>280<span>+</span></strong><small>阶段性粉丝</small></div></article>
         <article class="result-card result-card--activity"><div class="result-card-top"><span>02</span><i>ACTIVITY OPS</i></div><h3>活动运营</h3><p>把策划、宣发、现场执行与人员协调串成一条完整的落地链路。</p><div class="result-data"><strong>230</strong><small>活动现场观众</small><strong>30<span>+</span></strong><small>选手投稿</small></div></article>
         <article class="result-card result-card--delivery"><div class="result-card-top"><span>03</span><i>CONTENT DELIVERY</i></div><h3>内容交付</h3><p>从需求沟通、素材整理、制作修改到最终交付，持续完成真实项目。</p><div class="result-data"><strong>200<span>+</span></strong><small>视频项目</small><strong>30<span>+</span></strong><small>旅行与日常图文</small></div></article>
-        <article class="result-card result-card--product"><div class="result-card-top"><span>04</span><i>AI PRODUCT OPS</i></div><h3>AI 产品运营</h3><p>理解功能与使用场景，把 AI 产品表达成用户容易理解和继续探索的内容。</p><div class="result-data result-data--text"><strong>正式实习</strong><small>Haivis 官方账号运营</small><strong>持续实践</strong><small>AI 内容与产品表达</small></div></article>
+        <article class="result-card result-card--product"><div class="result-card-top"><span>04</span><i>AI PRODUCT OPS</i></div><h3>AI 产品运营</h3><p>理解功能与使用场景，把 AI 产品表达成用户容易理解和继续探索的内容。</p><div class="result-data result-data--text"><strong>正式实习</strong><small>AI 生图 Agent 官方账号运营</small><strong>持续实践</strong><small>AI 内容与产品表达</small></div></article>
       </div>
     </section>
 
@@ -73,7 +73,7 @@ app.innerHTML = `
       <div class="section-tag">03 / OPERATIONS CASES</div>
       <div class="section-heading"><h2>按项目看，<br><em>完整闭环。</em></h2><p>先看真实项目，再拆能力。每张卡片只保留最重要的工作与结果，展开后再看过程和证据边界。</p></div>
       <div class="case-filter" role="tablist" aria-label="筛选运营案例"><button class="filter active" data-filter="all" role="tab" aria-selected="true">ALL</button><button class="filter" data-filter="content" role="tab" aria-selected="false">CONTENT</button><button class="filter" data-filter="product" role="tab" aria-selected="false">PRODUCT OPS</button><button class="filter" data-filter="activity" role="tab" aria-selected="false">ACTIVITY</button></div>
-      <div class="case-list">${cases.map((item,index)=>`<article class="case-row case-row--${item.id}" data-category="${item.category}" style="--case-accent:${item.accent}"><div class="case-number">0${index+1}<span>/ 04</span></div><div class="case-media ${item.cover?'has-image':'no-image'}">${item.cover?`<img src="${item.cover}" alt="${item.title}" loading="lazy">`:`<div class="case-signal case-signal--${item.id}"><span>${item.id==='haivis'?'HAI / VIS':'AI / LAB'}</span><b>${item.id==='haivis'?'PRODUCT OPS':'VIBE CODING'}</b></div><div class="signal-labels"><span>${item.id==='haivis'?'FUNCTION':'PROBLEM'}</span><span>${item.id==='haivis'?'CONTENT':'PROTOTYPE'}</span><span>${item.id==='haivis'?'FEEDBACK':'DELIVERY'}</span></div>`}</div><div class="case-copy"><span class="case-type">${item.type} / ${item.year}</span><h3>${item.title}</h3><p>${item.summary}</p><div class="case-metrics">${item.metrics.map(([value,label])=>`<div><strong>${value}</strong><span>${label}</span></div>`).join('')}</div><div class="case-meta"><b>我负责</b><span>${item.role}</span></div><div class="case-result"><b>${item.result}</b><span>${item.proof}</span></div><button class="case-open" data-case="${item.id}">OPEN CASE <span>↗</span></button></div></article>`).join('')}</div>
+      <div class="case-list">${cases.map((item,index)=>`<article class="case-row case-row--${item.id}" data-category="${item.category}" style="--case-accent:${item.accent}"><div class="case-number">0${index+1}<span>/ 04</span></div><div class="case-media ${item.cover?'has-image':'no-image'}">${item.cover?`<img src="${item.cover}" alt="${item.title}" loading="lazy">`:`<div class="case-signal case-signal--${item.id}"><span>${item.id==='haivis'?'AI / AGENT':'AI / LAB'}</span><b>${item.id==='haivis'?'PRODUCT OPS':'VIBE CODING'}</b></div><div class="signal-labels"><span>${item.id==='haivis'?'FUNCTION':'PROBLEM'}</span><span>${item.id==='haivis'?'CONTENT':'PROTOTYPE'}</span><span>${item.id==='haivis'?'FEEDBACK':'DELIVERY'}</span></div>`}</div><div class="case-copy"><span class="case-type">${item.type} / ${item.year}</span><h3>${item.title}</h3><p>${item.summary}</p><div class="case-metrics">${item.metrics.map(([value,label])=>`<div><strong>${value}</strong><span>${label}</span></div>`).join('')}</div><div class="case-meta"><b>我负责</b><span>${item.role}</span></div><div class="case-result"><b>${item.result}</b><span>${item.proof}</span></div><button class="case-open" data-case="${item.id}">OPEN CASE <span>↗</span></button></div></article>`).join('')}</div>
     </section>
 
     <section id="capabilities" class="capabilities scene" data-scene="04">
@@ -97,7 +97,7 @@ app.innerHTML = `
 
     <section id="proof" class="proof scene" data-scene="07">
       <div class="section-tag">07 / PROOF & BOUNDARY</div><div class="section-heading"><h2>结果有来源，<br><em>能力有边界。</em></h2><p>作品集展示我能证明什么，也展示目前还需要继续补充什么。</p></div>
-      <div class="proof-board"><article><span class="proof-grade">A</span><h3>已核验成果</h3><p>有原始截图、数据、作品或本人职责确认，可以直接展示。</p><b>32 万曝光 / 230 人 / 200+ 项目</b></article><article><span class="proof-grade">B</span><h3>可迁移能力</h3><p>能证明部分能力，但不等同于完整岗位经验。</p><b>AI 项目 / 网页 / 动画 / 数据分析</b></article><article><span class="proof-grade">C</span><h3>待补证据</h3><p>方向合理，但需要补充用户反馈、漏斗或复盘材料。</p><b>Haivis 结果 / 投放 ROI / 留存</b></article></div>
+      <div class="proof-board"><article><span class="proof-grade">A</span><h3>已核验成果</h3><p>有原始截图、数据、作品或本人职责确认，可以直接展示。</p><b>32 万曝光 / 230 人 / 200+ 项目</b></article><article><span class="proof-grade">B</span><h3>可迁移能力</h3><p>能证明部分能力，但不等同于完整岗位经验。</p><b>AI 项目 / 网页 / 动画 / 数据分析</b></article><article><span class="proof-grade">C</span><h3>待补证据</h3><p>方向合理，但需要补充用户反馈、漏斗或复盘材料。</p><b>AI 生图 Agent 结果 / 投放 ROI / 留存</b></article></div>
     </section>
 
     <section id="contact" class="contact scene" data-scene="08"><div class="section-tag">08 / ABOUT & CONTACT</div><div class="contact-title">NEXT<br><em>LOOP.</em></div><p>我是李颖，主求职方向为 AI 产品运营，也关注内容运营、用户运营和增长实践。希望从一个真实的问题开始，把下一步做得更有依据。</p><div class="contact-bottom"><a class="contact-pill" href="mailto:ly2622319390@163.com">↗ CONTACT ME</a><a href="https://ly2622319390-afk.github.io/portfolio" target="_blank" rel="noreferrer">AI PRODUCT PORTFOLIO ↗</a><span>© 2026 LIYING</span></div></section>
