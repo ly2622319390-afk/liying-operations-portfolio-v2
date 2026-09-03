@@ -1,0 +1,12 @@
+/* Keep the oversized LENIS-style word inside wide desktop viewports. */
+@media (min-width: 851px) {
+  .hero-word {
+    font-size: clamp(86px, 12.5vw, 300px);
+    transform: translateX(-.04em) scaleX(.94);
+    transform-origin: left center;
+  }
+
+  .hero-sub {
+    font-size: clamp(42px, 5.4vw, 90px);
+  }
+}

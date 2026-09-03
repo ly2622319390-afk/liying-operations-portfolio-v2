@@ -1,0 +1,16 @@
+{
+  "name": "liying-operations-v2",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0"
+  },
+  "dependencies": {
+    "lenis": "^1.3.26",
+    "three": "^0.180.0",
+    "vite": "^6.1.0"
+  }
+}
