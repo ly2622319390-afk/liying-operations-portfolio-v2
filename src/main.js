@@ -49,6 +49,13 @@ Object.assign(cases[2], {
   details:cases[2].details.map((entry,index)=>index===3?['AIGC','独立策划游戏同人漫剧剧本，生成分镜，完成素材组织与剪辑，最终制作成完整的《鹅鸭杀》AIGC 游戏同人漫剧。<br><span class="project-skill-tags">剧本策划 / 分镜生成 / 剪辑制作 / AIGC 内容交付</span>']:entry)
 })
 
+// GitHub Pages serves this project below a repository path, so keep public assets relative.
+const normalizeAssetPath = path => path?.startsWith('/assets/') ? `.${path}` : path
+cases.forEach(item => {
+  item.cover = normalizeAssetPath(item.cover)
+  item.gallery = item.gallery?.map(entry => [normalizeAssetPath(entry[0]), ...entry.slice(1)])
+})
+
 const capabilities = [
   {
     id:'product', word:'PRODUCT UNDERSTANDING', name:'产品理解', tags:'场景定义 · 功能拆解 · 路径设计',
@@ -229,10 +236,10 @@ app.innerHTML = `
 
     <section class="content-lab scene" data-scene="05">
       <div class="content-lab-title">内容<em>作品集</em></div>
-      <div class="content-stack">${contentLabImages.map(([file,alt],index)=>`<figure class="content-tile content-tile--${index+1}" tabindex="0" role="button" aria-label="查看大图：${alt}"><img src="/assets/content-lab/${file}" alt="${alt}" loading="lazy"><figcaption>${alt}</figcaption></figure>`).join('')}</div>
+      <div class="content-stack">${contentLabImages.map(([file,alt],index)=>`<figure class="content-tile content-tile--${index+1}" tabindex="0" role="button" aria-label="查看大图：${alt}"><img src="assets/content-lab/${file}" alt="${alt}" loading="lazy"><figcaption>${alt}</figcaption></figure>`).join('')}</div>
     </section>
 
-    <section id="contact" class="contact scene contact--profile" data-scene="06"><div class="contact-layout"><div class="contact-copy"><div class="contact-title">ABOUT <em>ME</em></div><p>我喜欢把一个模糊的想法做成可以被看见、被使用的东西。我的优势是内容运营、用户沟通和 AI 工具应用，也能参与产品表达、网页 UI 设计与快速开发。希望加入一个愿意尝试新方法的团队，把 AI 用到真实业务中，和团队一起提升效率、优化体验、做出结果。</p></div><figure class="contact-photo" tabindex="0" role="button" aria-label="查看大图：李颖个人照片"><img src="/assets/about/liying-with-dog.jpg" alt="李颖与狗的个人照片" loading="lazy"><figcaption><span>PERSONAL PROFILE</span><b>李颖｜AI 产品运营</b></figcaption></figure></div><div class="contact-bottom"><a class="contact-pill" href="mailto:ly2622319390@163.com">↗ CONTACT ME</a><a href="https://ly2622319390-afk.github.io/portfolio" target="_blank" rel="noreferrer">AI PRODUCT PORTFOLIO ↗</a><span>© 2026 LIYING</span></div></section>
+    <section id="contact" class="contact scene contact--profile" data-scene="06"><div class="contact-layout"><div class="contact-copy"><div class="contact-title">ABOUT <em>ME</em></div><p>我喜欢把一个模糊的想法做成可以被看见、被使用的东西。我的优势是内容运营、用户沟通和 AI 工具应用，也能参与产品表达、网页 UI 设计与快速开发。希望加入一个愿意尝试新方法的团队，把 AI 用到真实业务中，和团队一起提升效率、优化体验、做出结果。</p></div><figure class="contact-photo" tabindex="0" role="button" aria-label="查看大图：李颖个人照片"><img src="assets/about/liying-with-dog.jpg" alt="李颖与狗的个人照片" loading="lazy"><figcaption><span>PERSONAL PROFILE</span><b>李颖｜AI 产品运营</b></figcaption></figure></div><div class="contact-bottom"><a class="contact-pill" href="mailto:ly2622319390@163.com">↗ CONTACT ME</a><a href="https://ly2622319390-afk.github.io/portfolio" target="_blank" rel="noreferrer">AI PRODUCT PORTFOLIO ↗</a><span>© 2026 LIYING</span></div></section>
   </main>
   <div class="case-modal" aria-hidden="true"><div class="modal-backdrop" data-close></div><article class="modal-panel" data-lenis-prevent-wheel><button class="modal-close" data-close aria-label="关闭案例">×</button><div id="modal-body"></div></article></div>
   <div class="image-lightbox" aria-hidden="true"><button class="image-lightbox-close" aria-label="关闭图片预览">×</button><img src="" alt=""></div>
