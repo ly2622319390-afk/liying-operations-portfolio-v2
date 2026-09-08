@@ -181,7 +181,6 @@ const capabilities = [
 
 const contentLabImages = [
   ['xiaochengxu-growth.png','小程序增长数据'],
-  ['个人自媒体-账号数据-完整截图.png','个人自媒体账号数据'],
   ['31afab35effce4fadd57a583cd27dd13.jpg','剪辑赛道获客'],
   ['6ee89a4aa3b51bb233c3a7bd10d90491.jpg','旅行内容分享'],
   ['ScreenShot_2026-09-04_135421_927.png','游戏创作者获客'],
@@ -237,7 +236,7 @@ app.innerHTML = `
 
     <section class="content-lab scene" data-scene="05">
       <div class="content-lab-title">内容<em>作品集</em></div>
-      <div class="content-stack">${contentLabImages.map(([file,alt],index)=>`<figure class="content-tile content-tile--${index+1}" tabindex="0" role="button" aria-label="查看大图：${alt}"><img src="assets/content-lab/${file}" alt="${alt}" loading="lazy"><figcaption>${alt}</figcaption></figure>`).join('')}</div>
+      <div class="content-stack">${contentLabImages.map(([file,alt],index)=>`<figure class="content-tile content-tile--${index+1} ${alt.includes('内容向Skill')?'content-tile--skill':''}" tabindex="0" role="button" aria-label="查看大图：${alt}"><img src="assets/content-lab/${file}" alt="${alt}" loading="lazy"><figcaption>${alt}</figcaption></figure>`).join('')}</div>
     </section>
 
     <section id="contact" class="contact scene contact--profile" data-scene="06"><div class="contact-layout"><div class="contact-copy"><div class="contact-title">ABOUT <em>ME</em></div><p>我喜欢把一个模糊的想法做成可以被看见、被使用的东西。我的优势是内容运营、用户沟通和 AI 工具应用，也能参与产品表达、网页 UI 设计与快速开发。希望加入一个愿意尝试新方法的团队，把 AI 用到真实业务中，和团队一起提升效率、优化体验、做出结果。</p></div><figure class="contact-photo" tabindex="0" role="button" aria-label="查看大图：李颖个人照片"><img src="assets/about/liying-with-dog.jpg" alt="李颖与狗的个人照片" loading="lazy"><figcaption><span>PERSONAL PROFILE</span><b>李颖｜AI 产品运营</b></figcaption></figure></div><div class="contact-bottom"><a class="contact-pill" href="mailto:ly2622319390@163.com">↗ CONTACT ME</a><span>© 2026 LIYING</span></div></section>

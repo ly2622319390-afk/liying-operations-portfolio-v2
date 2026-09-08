@@ -195,8 +195,10 @@
 
 /* Keep the imported account-data screenshot as a supporting tile, not the focal image. */
 .content-stack .content-tile--1{width:min(10vw,190px);height:220px;left:4%;top:12%}
+.content-stack .content-tile--skill{width:12%;height:170px;left:84%;top:72%;transform:rotate(-3deg);z-index:4!important}
 @media(max-width:850px){
   .content-stack .content-tile--1{width:min(38vw,150px);height:190px;left:2%;top:3%}
+  .content-stack .content-tile--skill{width:40%;height:165px;left:51%;top:140%;transform:rotate(3deg)}
 }
 
 .contact--profile{min-height:100vh}
