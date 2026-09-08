@@ -36,7 +36,7 @@
 .capability-points>div{display:grid;grid-template-columns:58px 1fr;gap:10px;padding:13px 0;border-bottom:1px solid var(--line)}
 .capability-points span{font:9px var(--mono);color:var(--pink);padding-top:3px}
 .capability-points p{margin:0;color:rgba(244,240,232,.92);font-size:15px;line-height:1.65}
-.capability-metrics{position:relative;z-index:1;display:flex;gap:28px;margin-top:24px;padding:16px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line);background:transparent}
+.capability-metrics{position:relative;z-index:1;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:18px;margin-top:24px;padding:16px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line);background:transparent}
 .capability-metrics div{display:flex;flex-direction:column;gap:4px}
 .capability-metrics strong{font:600 clamp(30px,2.2vw,40px) var(--serif);color:var(--white)}
 .capability-metrics span{font:11px var(--mono);color:rgba(244,240,232,.82);line-height:1.35}
@@ -110,7 +110,7 @@
   .capability-points{grid-template-columns:1fr;gap:0}
   .capability-media{grid-template-columns:1fr}
   .capability-media>div{height:64px}
-  .capability-metrics{gap:16px;flex-wrap:wrap;padding:15px}
+  .capability-metrics{grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;padding:15px}
   .capability-points p{font-size:14px}
   .display-loop{left:24px;right:24px;bottom:23px}
 }
