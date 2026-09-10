@@ -5,7 +5,7 @@ import './hero-fix.css'
 import './content-fix.css'
 
 const cases = [
-  { id:'haivis', type:'AI PRODUCT OPS', category:'product', year:'INTERNSHIP / 2026.06 — 2026.09', title:'生图 Agent 产品运营', summary:'第一月完成官网与宣发物料；产品上线后，围绕内容触达、用户增长、社群沉淀与产品反馈开展两个月运营。', result:'近 2000 新增注册用户', accent:'#d8f178', cover:null, role:'官网设计 / 内容运营 / 用户社群 / 产品协同', proof:'4% 注册用户付费转化率 · 850+ 小红书粉丝 · 100+ 图文视频', metrics:[['近 2000','上线运营两个月新增注册用户'],['4%','注册用户付费转化率'],['100+','图文与视频作品']], journey:['表达产品','触达用户','沉淀社群','反馈迭代'], gallery:[['/assets/haivis/cover.png','Haivis 产品主视觉','产品表达'],['/assets/haivis/frame-02.png','AI 生成视觉系列','AI 内容生产'],['/assets/haivis/frame-14.png','产品功能与编辑表达','产品内容与使用引导']], details:[['官网与宣发物料','实习第一个月负责 AI 生图平台官网主页面设计，并通过 Vibe Coding 制作 HTML 产品宣传动画，为产品正式上线准备官网视觉与对外宣传物料。'],['多平台内容运营','产品上线后，负责小红书、公众号、抖音和海内外社媒等平台的内容更新与宣传物料生产，完成 <strong>100+ 个图文和视频作品</strong>；视频由本人独立剪辑。针对电商设计用户分享海报模板提示词，针对年轻女性用户分享 P 图技巧和滤镜内容，并分别设计咨询话术。'],['AI 内容与用户增长','在产品上线后的两个月，使用 AI 生图平台生产图文素材，从图片中提炼视觉风格并生成系列内容；针对电商设计人群、年轻人和女性 P 图用户设计选题。期间平台新增注册用户<strong>近 2000</strong>，注册用户付费转化率达到<strong>4%</strong>。'],['社群反馈与产品迭代','创建小红书用户群，社群规模达到<strong>100+ 人</strong>；针对用户“怎么使用”和电商提示词等高频问题，在群内补充操作引导并将需求转化为后续内容选题。观察用户和粉丝反应，提出推荐官计划并带来<strong>200+ 用户增长</strong>。持续使用产品，累计提交<strong>30+ 项</strong>功能与体验问题，提出<strong>20+ 条</strong>产品优化建议，并协同开发推进<strong>40+ 项</strong>Bug 修复、体验优化与功能迭代。']] },
+  { id:'haivis', type:'AI PRODUCT OPS', category:'product', year:'INTERNSHIP / 2026.06 — 2026.09', title:'生图 Agent 产品运营', summary:'第一月完成官网与宣发物料；产品上线后，围绕内容触达、用户增长、社群沉淀与产品反馈开展两个月运营。', result:'2100+ 新增注册用户', accent:'#d8f178', cover:null, role:'官网设计 / 内容运营 / 用户社群 / 产品协同', proof:'4% 注册用户付费转化率 · 850+ 小红书粉丝 · 100+ 图文视频', metrics:[['2100+','上线运营两个月新增注册用户'],['4%','注册用户付费转化率'],['100+','图文与视频作品']], journey:['表达产品','触达用户','沉淀社群','反馈迭代'], gallery:[['/assets/haivis/cover.png','Haivis 产品主视觉','产品表达'],['/assets/haivis/frame-02.png','AI 生成视觉系列','AI 内容生产'],['/assets/haivis/frame-14.png','产品功能与编辑表达','产品内容与使用引导']], details:[['官网与宣发物料','实习第一个月负责 AI 生图平台官网主页面设计，并通过 Vibe Coding 制作 HTML 产品宣传动画，为产品正式上线准备官网视觉与对外宣传物料。'],['多平台内容运营','产品上线后，负责小红书、公众号、抖音和海内外社媒等平台的内容更新与宣传物料生产，完成 <strong>100+ 个图文和视频作品</strong>；视频由本人独立剪辑。针对电商设计用户分享海报模板提示词，针对年轻女性用户分享 P 图技巧和滤镜内容，并分别设计咨询话术。'],['AI 内容与用户增长','在产品上线后的两个月，使用 AI 生图平台生产图文素材，从图片中提炼视觉风格并生成系列内容；针对电商设计人群、年轻人和女性 P 图用户设计选题。期间平台新增注册用户<strong>2100+</strong>，注册用户付费转化率达到<strong>4%</strong>。'],['社群反馈与产品迭代','创建小红书用户群，社群规模达到<strong>100+ 人</strong>；针对用户“怎么使用”和电商提示词等高频问题，在群内补充操作引导并将需求转化为后续内容选题。观察用户和粉丝反应，提出推荐官计划并带来<strong>200+ 用户增长</strong>。持续使用产品，累计提交<strong>30+ 项</strong>功能与体验问题，提出<strong>20+ 条</strong>产品优化建议，并协同开发推进<strong>40+ 项</strong>Bug 修复、体验优化与功能迭代。']] },
   { id:'personal', type:'PERSONAL MEDIA OPS', category:'content', year:'PERSONAL PRACTICE', title:'个人自媒体运营', summary:'覆盖剪辑分享、旅行、游戏与 AIGC 等方向，运营个人及团体账号，持续进行多主题、多平台内容实践。', result:'抖音累计 200 万播放', accent:'#ff879f', cover:'/assets/运营/从0到1运营团队.webp', role:'内容策划 / 全流程制作 / 平台运营 / 商业交付', proof:'3 万获赞 · 40 万单条最高播放 · 300+ 视频 · 50+ 客户', metrics:[['200 万','抖音账号累计播放'],['40 万','单条最高播放'],['20+','1 万以上播放视频']], journey:['多方向运营','全流程制作','数据表现','合作交付'], gallery:[['/assets/运营/从0到1运营团队.webp','抖音账号与阶段性数据','账号运营'],['/assets/运营/小红书图文1.webp','小红书图文样本 / 选题与正文','图文内容'],['/assets/运营/小红书图文2.webp','小红书视觉样本 / 封面与画面','视觉内容']], details:[['多赛道内容运营','围绕剪辑分享、旅行、游戏与 AIGC 等方向，运营个人及团体账号，持续进行多主题、多平台的内容实践。'],['账号运营与内容表现','运营过个人及团体抖音账号，多个账号累计播放量达 <strong>200 万</strong>，累计获赞约 <strong>3 万</strong>；单条视频最高播放量达 <strong>40 万</strong>，播放量超过 <strong>1 万</strong> 的短视频有 <strong>20 余条</strong>。同步运营小红书图文与视频账号，持续积累多平台内容数据和代表作品。'],['视频与图文全流程制作','累计发布 <strong>300+ 条视频</strong>、<strong>80+ 篇图文</strong>，具备从前期策划、素材组织到后期制作与成片交付的全流程执行能力。'],['内容获客与商业合作','通过小红书发布视频与剪辑作品，持续展示内容制作能力并承接合作需求，累计服务 <strong>50+ 位客户</strong>，客户反馈 <strong>100% 好评</strong>，形成从内容展示、合作承接到项目交付的商业闭环。']] },
   { id:'ai-product', type:'AI PRODUCT PRACTICE', category:'product', year:'VIBE CODING / 2025 — NOW', title:'AI 产品实践与快速交付', summary:'围绕自己构思的 AI 产品、小程序、网站与互动作品，完成从场景发现、产品设计到 AI 协作实现和内容表达。', result:'多类型 AI 产品作品', accent:'#8db8ff', cover:null, role:'产品构思 / AI 协作 / 原型实现 / 内容表达', proof:'6 个产品项目 · Vibe Coding · 多模态产出', metrics:[['06','产品项目'],['04','产品形态'],['01','独立上架小程序']], journey:['发现真实场景','构思产品方案','完成快速实现','形成作品交付'], gallery:[['/assets/products/fridge-main.webp','冰箱有啥吃啥小程序','场景型产品'],['/assets/products/lingyu-chat.webp','灵语·智能3场景语音识别软件','交互型产品'],['/assets/products/herbal-cover.png','AI 中药材识别产品','场景型产品'],['/assets/products/ai-chat-cover.webp','AI 角色对话网站','交互型产品'],['/assets/products/ai-game-cover.webp','AI 互动游戏','AI 创意产品'],['/assets/products/ai-character-cover.png','AI 角色产品界面','AI 创意内容']], detailProof:['冰箱有啥吃啥 · 场景识别 · 产品构思','灵语 · 功能梳理 · 产品介绍视频','AI 网站 · 互动网页 · Vibe Coding 实现','多类型 AI 产品与内容作品'], details:[['冰箱有啥吃啥','从“冰箱里有什么食材、今天可以做什么”这一生活场景出发，设计“冰箱有啥吃啥”小程序，独立借助 AI 完成产品设计、开发与上线全流程，现已成功上架微信小程序。<br><span class="project-skill-tags">场景识别 / 产品设计 / AI 辅助开发 / 独立交付</span>'],['灵语·智能3场景语音识别软件','围绕会议记录、日常记录和创作表达等 3 类语音使用场景，梳理语音输入、内容识别与结果整理的产品功能，完成界面交互设计，并制作完整的产品介绍视频。技术架构采用前端交互界面承载输入与结果展示，结合语音识别与大模型处理能力完成内容理解，再通过结构化结果模块支持用户查看、编辑与继续使用。<br><span class="project-skill-tags">场景拆解 / 功能架构 / 交互设计 / 产品表达</span>'],['AI 网站与互动产品','使用 Vibe Coding 与 AI 工具完成多个网站、互动网页和小产品，将产品想法转化为可查看、可体验的界面与原型。<br><span class="project-skill-tags">Vibe Coding / 快速原型 / 前端实现</span>'],['AI 创意内容','围绕 AI 角色、游戏化内容与视觉创意项目，完成 AI 生图、视频、动画和互动内容等多类型产出，将 AI 能力转化为可展示的作品。<br><span class="project-skill-tags">AI 生图 / AI 视频 / 多模态表达</span>']] },
 ]
@@ -16,7 +16,7 @@ Object.assign(cases[0], {
   coverKind:'video',
   title:'生图 Agent 产品运营',
   proof:'4% 运营期付费转化率 · 850+ 小红书粉丝 · 100+ 图文视频',
-    metrics:[['近 2000','上线运营两个月新增注册用户'],['4%','注册用户付费转化率'],['100+','图文与视频作品']],
+    metrics:[['2100+','上线运营两个月新增注册用户'],['4%','注册用户付费转化率'],['100+','图文与视频作品']],
   gallery:[
     ['/assets/haivis/video/haivis-promo-cn.mp4','AI 生图 Agent 产品宣发动画','Vibe Coding / 动效交付','video'],
     ['/assets/haivis/video/haivis-website-walkthrough.mp4','AI 生图 Agent 官网动态页面','官网视觉展示','video'],
@@ -64,9 +64,10 @@ const capabilities = [
     caseTitle:'冰箱有啥吃啥｜小程序产品规划与独立上线',
     stats:[['2.4 万','曝光率'],['100+','累计用户'],['230 道','内置食谱'],['5 项','核心功能']],
     points:[
-      ['问题','冰箱里有现成食材，却不知道今天能做什么。'],
-      ['判断','用户需要的不是更多菜谱，而是从已有食材快速得到可执行建议。'],
-      ['方案','围绕“查看食材—获得推荐—查看做法”组织页面、数据与功能。']
+      ['S｜场景','用户拥有现成食材，却缺少明确、可执行的菜谱建议。'],
+      ['T｜目标','将“今天吃什么”的模糊需求转化为可完成的推荐路径。'],
+      ['A｜行动','拆解“查看食材—获得推荐—查看做法”流程，规划页面、数据结构与 5 项核心功能。'],
+      ['R｜结果','独立完成小程序开发并上线，沉淀 230 道食谱，累计用户 100+。']
     ],
     flow:['生活问题','核心任务','功能路径','小程序上线'], note:'当前证据重点是场景判断、功能组织与独立交付，不延伸为未经验证的用户增长结论。'
   },
@@ -85,27 +86,27 @@ const capabilities = [
   },
   {
     id:'user', word:'USER OPERATIONS', name:'用户运营', tags:'用户定位 · 首次引导 · 反馈闭环',
-    headline:'光绘镜头签 Skill｜用户定位与反馈优化',
-    body:'围绕“光绘镜头签”Skill，将目标用户定位为关注时尚、个人形象与视觉表达的年轻女性，通过发布生成效果图与文字使用说明引导用户体验，并根据用户反馈推动体验优化。',
-    caseTitle:'光绘镜头签 Skill｜用户定位与反馈优化',
+    headline:'光绘镜头签 Skill｜用户定位与迭代优化',
+    body:'围绕“光绘镜头签”Skill，将目标用户定位为关注时尚、个人形象与视觉表达的年轻女性，通过发布生成效果图与文字使用说明引导用户体验，并根据生成结果与用户预期持续迭代 Skill。',
+    caseTitle:'光绘镜头签 Skill｜用户定位与迭代优化',
     points:[
-      ['用户定位','关注时尚、个人形象与视觉表达的年轻女性。'],
-      ['使用引导','发布生成效果图与文字使用说明，引导用户进入网站、上传照片并填写签名文字。'],
-      ['问题反馈','部分生成结果改变原照片构图，与用户保留主体和画面的预期不一致。'],
-      ['产品优化','整理问题表现并反馈开发，推动加强生成过程中的构图控制。']
+      ['S｜场景','面向关注时尚、个人形象与视觉表达的年轻女性用户推广图片生成 Skill。'],
+      ['T｜目标','降低首次体验门槛，引导用户完成进入网站、上传照片和填写签名。'],
+      ['A｜行动','通过效果图与使用说明触达用户，收集生成反馈并定位主体、构图保留问题。'],
+      ['R｜结果','迭代 Skill 指令，强化主体与构图约束，推动生成结果更符合用户预期。']
     ],
     stats:[['100+','私域群用户'],['10+','覆盖内容群体'],['20+','体验优化反馈']], flow:['内容触达','首次体验','收集反馈','推动优化']
   },
   {
     id:'feedback', word:'PRODUCT COLLABORATION', name:'产品协同', tags:'发现问题 · 复现问题 · 反馈开发 · 跟进优化',
     headline:'AI 生图产品｜问题发现与产品协同',
-    body:'基于真实使用反馈，发现并反馈 30+ 项功能与体验问题，提出 20+ 条产品优化建议，并协同推进 40+ 项修复与迭代。其中以 Skill 广场为例，推动补齐效果图上传与后台审核信息，使用户产出和审核判断形成闭环。',
+    body:'基于真实使用反馈，反馈 30+ 项功能与体验问题，提出 20+ 条优化建议并协同推进 40+ 项修复。以 Skill 广场为例，完善效果图上传与后台审核信息，打通内容提交、审核判断与发布流程。',
     caseTitle:'AI 生图产品｜问题发现与产品协同',
     points:[
-      ['发现','以用户视角测试 Skill 广场时，发现用户上传 Skill 只能提交文字，无法上传效果图；后台审核也看不到效果图，无法选择分类。'],
-      ['复现','记录用户上传和管理员审核的完整操作路径，确认问题同时影响内容提交、审核判断和分类管理。'],
-      ['反馈','提出补充效果图上传和后台审核展示的方案，让审核人员能直观看到 Skill 的实际产出。'],
-      ['验证','功能上线后进行多轮测试，核对 Skill 描述与效果图是否一致；一致时通过审核，形成从上传、分类到审核发布的闭环。']
+      ['发现','以用户视角测试 Skill 广场，识别出效果图缺失、审核信息不足和分类缺口。'],
+      ['定位','复现用户上传与管理员审核路径，确认问题影响内容提交、审核判断和分类管理。'],
+      ['方案','推动增加效果图上传及后台展示，使审核人员可直观看到 Skill 实际产出。'],
+      ['验证','上线后进行多轮回归测试，核对 Skill 描述与效果图一致性，验证上传至发布链路。']
     ],
     stats:[['30+','Bug 反馈'],['20+','产品优化建议'],['40+','修复与迭代']], flow:['发现问题','记录复现','反馈开发','跟进优化'], note:'实习期间持续使用产品，累计反馈 30+ 个 Bug，提出 20+ 条产品优化建议，并协同推进 40+ 项修复与迭代。'
   },
@@ -114,7 +115,7 @@ const capabilities = [
     headline:'Haivis｜内容、社群与推荐官增长',
     body:'产品上线后的两个月，围绕 AI 生图平台通过小红书、公众号、抖音和海内外社媒触达目标人群，建立私域用户群承接产品兴趣，并提出推荐官计划扩展用户来源。',
     caseTitle:'Haivis｜内容、社群与推荐官增长',
-    stats:[['近 2000','上线运营两个月新增注册用户'],['200+','推荐官计划带来用户增长'],['4%','注册用户付费转化率']],
+    stats:[['2100+','上线运营两个月新增注册用户'],['200+','推荐官计划带来用户增长'],['4%','注册用户付费转化率']],
     points:[
       ['触达','观察同类电商生图平台的内容运营方式，结合产品相对优势，为电商设计用户和年轻女性用户分别设计选题与内容表达。'],
       ['承接','建立 100+ 人私域用户群，解答使用问题；将用户对电商提示词的需求转化为后续内容选题。'],
@@ -183,6 +184,8 @@ const capabilities = [
 cases[1].metrics[2][0] = '30+'
 cases[1].details[1][1] = cases[1].details[1][1].replace('20 余条', '30 余条')
 capabilities[1].stats[1][0] = '2.3 万'
+cases[0].details[1][1] = '面向电商设计与年轻女性两类人群，分别策划海报提示词、P 图技巧和滤镜内容，并匹配差异化咨询话术。'
+cases[0].details[3][1] = '建立 100+ 人用户群，围绕使用咨询和电商提示词需求提供引导，并将高频问题沉淀为后续内容选题；提出推荐官计划，带来 200+ 用户增长。'
 
 const contentLabImages = [
   ['xiaochengxu-growth.png','小程序增长数据'],
@@ -225,13 +228,13 @@ app.innerHTML = `
         <article class="result-card result-card--content"><div class="result-card-top"><span>01</span><i>CONTENT OPS</i></div><h3>内容运营</h3><p>从选题、制作到平台适配与发布复盘，让内容在具体语境里被看见。</p><div class="result-data"><strong>200<span>万</span></strong><small>抖音累计播放</small><strong>3<span>万</span></strong><small>累计获赞</small><strong>40<span>万</span></strong><small>单条最高播放</small></div></article>
         <article class="result-card result-card--ai-practice"><div class="result-card-top"><span>02</span><i>AI PRODUCT PRACTICE</i></div><h3>AI 产品实践</h3><p>从场景发现、产品构思到 AI 协作实现，持续把产品想法转化为可体验的作品。</p><div class="result-data"><strong>06</strong><small>产品项目</small><strong>04</strong><small>产品形态</small><strong>01</strong><small>独立上架小程序</small></div></article>
         <article class="result-card result-card--user-feedback"><div class="result-card-top"><span>03</span><i>USER &amp; PRODUCT FEEDBACK</i></div><h3>用户反馈与产品迭代</h3><p>连接用户、观察使用问题，再把分散反馈整理成可以推动产品优化的具体行动。</p><div class="result-data"><strong>100<span>+</span></strong><small>私域用户群规模</small><strong>30<span>+</span></strong><small>Bug 反馈</small><strong>200<span>+</span></strong><small>推荐官计划带来用户增长</small></div></article>
-        <article class="result-card result-card--outcome"><div class="result-card-top"><span>04</span><i>AI PRODUCT OPS OUTCOMES</i></div><h3>AI 产品运营结果</h3><p>产品上线后，围绕 AI 生图产品完成内容触达、用户承接与产品反馈，形成从传播到转化的运营实践。</p><div class="result-data"><strong>近 2000</strong><small>上线运营两个月新增注册用户</small><strong>4<span>%</span></strong><small>注册用户付费转化率</small><strong>850<span>+</span></strong><small>Haivis 小红书粉丝</small></div></article>
+        <article class="result-card result-card--outcome"><div class="result-card-top"><span>04</span><i>AI PRODUCT OPS OUTCOMES</i></div><h3>AI 产品运营结果</h3><p>产品上线后，围绕 AI 生图产品完成内容触达、用户承接与产品反馈，形成从传播到转化的运营实践。</p><div class="result-data"><strong>2100+</strong><small>上线运营两个月新增注册用户</small><strong>4<span>%</span></strong><small>注册用户付费转化率</small><strong>850<span>+</span></strong><small>Haivis 小红书粉丝</small></div></article>
       </div>
     </section>
 
     <section id="cases" class="cases scene" data-scene="03">
       <div class="section-heading"><h2>项目<em>实践</em></h2></div>
-      <div class="case-list">${cases.map((item,index)=>`<article class="case-row case-row--${item.id}" data-category="${item.category}" style="--case-accent:${item.accent}"><div class="case-number">0${index+1}<span>/ 03</span></div><div class="case-media ${item.cover?'has-image':'no-image'}">${item.cover?(item.coverKind==='video'?`<video src="${item.cover}" autoplay muted loop playsinline preload="metadata" aria-label="${item.title} 视频预览"></video>`:`<img src="${item.cover}" alt="${item.title}" loading="lazy">`):`<div class="case-signal case-signal--${item.id}"><span>${item.id==='haivis'?'AI / AGENT':'AI / LAB'}</span><b>${item.id==='haivis'?'PRODUCT OPS':'VIBE CODING'}</b></div><div class="signal-labels"><span>${item.id==='haivis'?'FUNCTION':'PROBLEM'}</span><span>${item.id==='haivis'?'CONTENT':'PROTOTYPE'}</span><span>${item.id==='haivis'?'FEEDBACK':'DELIVERY'}</span></div>`}</div><div class="case-copy"><span class="case-type">${item.type} / ${item.year}</span><h3>${item.title}</h3><p>${item.summary}</p><div class="case-metrics">${item.metrics.map(([value,label])=>`<div><strong>${value}</strong><span>${label}</span></div>`).join('')}</div><div class="case-meta"><b>我负责</b><span>${item.role}</span></div><div class="case-result"><b>${item.result}</b><span>${item.proof}</span></div><button class="case-open" data-case="${item.id}">OPEN CASE <span>↗</span></button></div></article>`).join('')}</div>
+      <div class="case-list">${cases.map((item,index)=>`<article class="case-row case-row--${item.id}" data-category="${item.category}" style="--case-accent:${item.accent}"><div class="case-number">0${index+1}<span>/ 03</span></div><div class="case-media ${item.cover?'has-image':'no-image'}">${item.cover?(item.coverKind==='video'?`<video src="${item.cover}" autoplay muted loop playsinline preload="metadata" aria-label="${item.title} 视频预览"></video>`:`<img src="${item.cover}" alt="${item.title}" loading="lazy">`):`<div class="case-signal case-signal--${item.id}"><span>${item.id==='haivis'?'AI / AGENT':'AI / LAB'}</span><b>${item.id==='haivis'?'PRODUCT OPS':'VIBE CODING'}</b></div><div class="signal-labels"><span>${item.id==='haivis'?'FUNCTION':'PROBLEM'}</span><span>${item.id==='haivis'?'CONTENT':'PROTOTYPE'}</span><span>${item.id==='haivis'?'FEEDBACK':'DELIVERY'}</span></div>`}</div><div class="case-copy"><span class="case-type">${item.type} / ${item.year}</span><h3>${item.title}</h3><p>${item.summary}</p><div class="case-metrics">${item.metrics.map(([value,label])=>`<div><strong>${value}</strong><span>${label}</span></div>`).join('')}</div><div class="case-meta"><b>我负责</b><span>${item.role}</span></div><button class="case-open" data-case="${item.id}">OPEN CASE <span>↗</span></button></div></article>`).join('')}</div>
     </section>
 
     <section id="capabilities" class="capabilities scene" data-scene="04">
