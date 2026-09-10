@@ -5,7 +5,7 @@ import './hero-fix.css'
 import './content-fix.css'
 
 const cases = [
-  { id:'haivis', type:'AI PRODUCT OPS', category:'product', year:'INTERNSHIP / 2026.06 — 2026.09', title:'生图 Agent 产品运营', summary:'第一月完成官网与宣发物料；产品上线后，围绕内容触达、用户增长、社群沉淀与产品反馈开展两个月运营。', result:'近 2000 新增注册用户', accent:'#d8f178', cover:null, role:'官网设计 / 内容运营 / 用户社群 / 产品协同', proof:'4% 注册用户付费转化率 · 850+ 小红书粉丝 · 100+ 图文视频', metrics:[['近 2000','上线运营两个月新增注册用户'],['4%','注册用户付费转化率'],['100+','图文与视频作品']], journey:['表达产品','触达用户','沉淀社群','反馈迭代'], gallery:[['/assets/haivis/cover.png','Haivis 产品主视觉','产品表达'],['/assets/haivis/frame-02.png','AI 生成视觉系列','AI 内容生产'],['/assets/haivis/frame-14.png','产品功能与编辑表达','产品内容与使用引导']], details:[['官网与宣发物料','实习第一个月负责 AI 生图平台官网主页面设计，并通过 Vibe Coding 制作 HTML 产品宣传动画，为产品正式上线准备官网视觉与对外宣传物料。'],['多平台内容运营','产品上线后，负责小红书、公众号、抖音和海外社媒等平台的内容更新与宣传物料生产，完成 <strong>100+ 个图文和视频作品</strong>；视频由本人独立剪辑。'],['AI 内容与用户增长','在产品上线后的两个月，使用 AI 生图平台生产图文素材，从图片中提炼视觉风格并生成系列内容；针对电商设计人群、年轻人和女性 P 图用户设计选题。期间平台新增注册用户<strong>近 2000</strong>，注册用户付费转化率达到<strong>4%</strong>。'],['社群反馈与产品迭代','创建小红书用户群，社群规模达到<strong>100+ 人</strong>；观察用户和粉丝反应，提出推荐官计划并带来<strong>200+ 用户增长</strong>。持续使用产品，累计提交<strong>30+ 项</strong>功能与体验问题，提出<strong>20+ 条</strong>产品优化建议，并协同开发推进<strong>40+ 项</strong>Bug 修复、体验优化与功能迭代。']] },
+  { id:'haivis', type:'AI PRODUCT OPS', category:'product', year:'INTERNSHIP / 2026.06 — 2026.09', title:'生图 Agent 产品运营', summary:'第一月完成官网与宣发物料；产品上线后，围绕内容触达、用户增长、社群沉淀与产品反馈开展两个月运营。', result:'近 2000 新增注册用户', accent:'#d8f178', cover:null, role:'官网设计 / 内容运营 / 用户社群 / 产品协同', proof:'4% 注册用户付费转化率 · 850+ 小红书粉丝 · 100+ 图文视频', metrics:[['近 2000','上线运营两个月新增注册用户'],['4%','注册用户付费转化率'],['100+','图文与视频作品']], journey:['表达产品','触达用户','沉淀社群','反馈迭代'], gallery:[['/assets/haivis/cover.png','Haivis 产品主视觉','产品表达'],['/assets/haivis/frame-02.png','AI 生成视觉系列','AI 内容生产'],['/assets/haivis/frame-14.png','产品功能与编辑表达','产品内容与使用引导']], details:[['官网与宣发物料','实习第一个月负责 AI 生图平台官网主页面设计，并通过 Vibe Coding 制作 HTML 产品宣传动画，为产品正式上线准备官网视觉与对外宣传物料。'],['多平台内容运营','产品上线后，负责小红书、公众号、抖音和海内外社媒等平台的内容更新与宣传物料生产，完成 <strong>100+ 个图文和视频作品</strong>；视频由本人独立剪辑。针对电商设计用户分享海报模板提示词，针对年轻女性用户分享 P 图技巧和滤镜内容，并分别设计咨询话术。'],['AI 内容与用户增长','在产品上线后的两个月，使用 AI 生图平台生产图文素材，从图片中提炼视觉风格并生成系列内容；针对电商设计人群、年轻人和女性 P 图用户设计选题。期间平台新增注册用户<strong>近 2000</strong>，注册用户付费转化率达到<strong>4%</strong>。'],['社群反馈与产品迭代','创建小红书用户群，社群规模达到<strong>100+ 人</strong>；针对用户“怎么使用”和电商提示词等高频问题，在群内补充操作引导并将需求转化为后续内容选题。观察用户和粉丝反应，提出推荐官计划并带来<strong>200+ 用户增长</strong>。持续使用产品，累计提交<strong>30+ 项</strong>功能与体验问题，提出<strong>20+ 条</strong>产品优化建议，并协同开发推进<strong>40+ 项</strong>Bug 修复、体验优化与功能迭代。']] },
   { id:'personal', type:'PERSONAL MEDIA OPS', category:'content', year:'PERSONAL PRACTICE', title:'个人自媒体运营', summary:'覆盖剪辑分享、旅行、游戏与 AIGC 等方向，运营个人及团体账号，持续进行多主题、多平台内容实践。', result:'抖音累计 200 万播放', accent:'#ff879f', cover:'/assets/运营/从0到1运营团队.webp', role:'内容策划 / 全流程制作 / 平台运营 / 商业交付', proof:'3 万获赞 · 40 万单条最高播放 · 300+ 视频 · 50+ 客户', metrics:[['200 万','抖音账号累计播放'],['40 万','单条最高播放'],['20+','1 万以上播放视频']], journey:['多方向运营','全流程制作','数据表现','合作交付'], gallery:[['/assets/运营/从0到1运营团队.webp','抖音账号与阶段性数据','账号运营'],['/assets/运营/小红书图文1.webp','小红书图文样本 / 选题与正文','图文内容'],['/assets/运营/小红书图文2.webp','小红书视觉样本 / 封面与画面','视觉内容']], details:[['多赛道内容运营','围绕剪辑分享、旅行、游戏与 AIGC 等方向，运营个人及团体账号，持续进行多主题、多平台的内容实践。'],['账号运营与内容表现','运营过个人及团体抖音账号，多个账号累计播放量达 <strong>200 万</strong>，累计获赞约 <strong>3 万</strong>；单条视频最高播放量达 <strong>40 万</strong>，播放量超过 <strong>1 万</strong> 的短视频有 <strong>20 余条</strong>。同步运营小红书图文与视频账号，持续积累多平台内容数据和代表作品。'],['视频与图文全流程制作','累计发布 <strong>300+ 条视频</strong>、<strong>80+ 篇图文</strong>，具备从前期策划、素材组织到后期制作与成片交付的全流程执行能力。'],['内容获客与商业合作','通过小红书发布视频与剪辑作品，持续展示内容制作能力并承接合作需求，累计服务 <strong>50+ 位客户</strong>，客户反馈 <strong>100% 好评</strong>，形成从内容展示、合作承接到项目交付的商业闭环。']] },
   { id:'ai-product', type:'AI PRODUCT PRACTICE', category:'product', year:'VIBE CODING / 2025 — NOW', title:'AI 产品实践与快速交付', summary:'围绕自己构思的 AI 产品、小程序、网站与互动作品，完成从场景发现、产品设计到 AI 协作实现和内容表达。', result:'多类型 AI 产品作品', accent:'#8db8ff', cover:null, role:'产品构思 / AI 协作 / 原型实现 / 内容表达', proof:'6 个产品项目 · Vibe Coding · 多模态产出', metrics:[['06','产品项目'],['04','产品形态'],['01','独立上架小程序']], journey:['发现真实场景','构思产品方案','完成快速实现','形成作品交付'], gallery:[['/assets/products/fridge-main.webp','冰箱有啥吃啥小程序','场景型产品'],['/assets/products/lingyu-chat.webp','灵语·智能3场景语音识别软件','交互型产品'],['/assets/products/herbal-cover.png','AI 中药材识别产品','场景型产品'],['/assets/products/ai-chat-cover.webp','AI 角色对话网站','交互型产品'],['/assets/products/ai-game-cover.webp','AI 互动游戏','AI 创意产品'],['/assets/products/ai-character-cover.png','AI 角色产品界面','AI 创意内容']], detailProof:['冰箱有啥吃啥 · 场景识别 · 产品构思','灵语 · 功能梳理 · 产品介绍视频','AI 网站 · 互动网页 · Vibe Coding 实现','多类型 AI 产品与内容作品'], details:[['冰箱有啥吃啥','从“冰箱里有什么食材、今天可以做什么”这一生活场景出发，设计“冰箱有啥吃啥”小程序，独立借助 AI 完成产品设计、开发与上线全流程，现已成功上架微信小程序。<br><span class="project-skill-tags">场景识别 / 产品设计 / AI 辅助开发 / 独立交付</span>'],['灵语·智能3场景语音识别软件','围绕会议记录、日常记录和创作表达等 3 类语音使用场景，梳理语音输入、内容识别与结果整理的产品功能，完成界面交互设计，并制作完整的产品介绍视频。技术架构采用前端交互界面承载输入与结果展示，结合语音识别与大模型处理能力完成内容理解，再通过结构化结果模块支持用户查看、编辑与继续使用。<br><span class="project-skill-tags">场景拆解 / 功能架构 / 交互设计 / 产品表达</span>'],['AI 网站与互动产品','使用 Vibe Coding 与 AI 工具完成多个网站、互动网页和小产品，将产品想法转化为可查看、可体验的界面与原型。<br><span class="project-skill-tags">Vibe Coding / 快速原型 / 前端实现</span>'],['AI 创意内容','围绕 AI 角色、游戏化内容与视觉创意项目，完成 AI 生图、视频、动画和互动内容等多类型产出，将 AI 能力转化为可展示的作品。<br><span class="project-skill-tags">AI 生图 / AI 视频 / 多模态表达</span>']] },
 ]
@@ -16,7 +16,7 @@ Object.assign(cases[0], {
   coverKind:'video',
   title:'生图 Agent 产品运营',
   proof:'4% 运营期付费转化率 · 850+ 小红书粉丝 · 100+ 图文视频',
-  metrics:[['近 2000','上线运营两个月新增注册用户'],['4%','注册用户付费转化率'],['100+','图文与视频作品']],
+    metrics:[['近 2000','上线运营两个月新增注册用户'],['4%','注册用户付费转化率'],['100+','图文与视频作品']],
   gallery:[
     ['/assets/haivis/video/haivis-promo-cn.mp4','AI 生图 Agent 产品宣发动画','Vibe Coding / 动效交付','video'],
     ['/assets/haivis/video/haivis-website-walkthrough.mp4','AI 生图 Agent 官网动态页面','官网视觉展示','video'],
@@ -24,7 +24,7 @@ Object.assign(cases[0], {
   ],
   details:[
     ['产品表达与宣发落地','负责 AI 生图平台官网主视觉设计，并通过 Vibe Coding 完成 HTML 产品宣传动画，将产品功能转化为可展示、可传播的网页与视觉物料。具备较强的产品理解、视觉表达、AI 协作开发、前端实现与动效交付能力。'],
-    ['多平台内容运营','产品上线后，负责小红书、公众号、抖音和海外社媒等平台的内容运营，从选题策划到图文、视频制作与发布复盘均独立完成，累计产出<strong>100+ 个图文和视频作品</strong>。根据不同平台的人群特征和内容反馈，持续调整选题与内容表达；小红书总浏览达到<strong>2.1 万</strong>，粉丝达到<strong>850+</strong>。'],
+    ['多平台内容运营','产品上线后，负责小红书、公众号、抖音和海内外社媒等平台的内容运营，从选题策划到图文、视频制作与发布复盘均独立完成，累计产出<strong>100+ 个图文和视频作品</strong>。针对电商设计用户分享海报模板提示词，针对年轻女性用户分享 P 图技巧和滤镜内容，并根据不同平台的人群特征和内容反馈持续调整表达；小红书总浏览达到<strong>2.3 万</strong>，粉丝达到<strong>850+</strong>。'],
     ['AI 内容与可复用工作流','能够将 AI 应用于内容生产和运营工作流，完成 AI 生图、视觉风格提炼、系列素材生成与内容表达；围绕用户实际需求沉淀调色、P 图、照片风格转换等内容型 Skill，同时针对工作中的高频任务编写系列风格提取、素材整理和内容生成等可复用 Skill。具备较强的 AI 工具应用、任务拆解、Skill 编写、内容生产和工作流沉淀能力。'],
      ['Skill 上线与用户反馈闭环','围绕已编写的内容型 Skill，搭建面向终端用户的 Skill 上线平台，将不同使用场景的能力整理为可浏览、可理解、可尝试的产品卡片，并补充使用说明与入口，降低用户发现和上手成本。通过内容分发与用户社群持续触达目标用户，社群规模达到<strong>100+ 人</strong>；基于用户反馈提出“推荐官计划”，带来<strong>200+ 用户增长</strong>，并将使用问题沉淀为后续产品优化与迭代依据。']
   ]
@@ -62,7 +62,7 @@ const capabilities = [
     headline:'冰箱有啥吃啥｜小程序产品规划与独立上线',
     body:'围绕“家中已有食材，但不知道今天做什么”的日常场景，完成需求拆解、核心使用路径规划、页面与数据结构设计，并借助 AI 独立完成小程序开发与上线。',
     caseTitle:'冰箱有啥吃啥｜小程序产品规划与独立上线',
-    stats:[['2.4 万','曝光率'],['60+','累计用户'],['230 道','内置食谱'],['5 项','核心功能']],
+    stats:[['2.4 万','曝光率'],['100+','累计用户'],['230 道','内置食谱'],['5 项','核心功能']],
     points:[
       ['问题','冰箱里有现成食材，却不知道今天能做什么。'],
       ['判断','用户需要的不是更多菜谱，而是从已有食材快速得到可执行建议。'],
@@ -81,7 +81,7 @@ const capabilities = [
       ['制作方法','拆解功能与案例，完成视觉素材、图文文案、视频剪辑和发布适配。'],
       ['迭代方式','结合评论、社群提问和内容反馈，调整下一轮选题与讲解重点。']
     ],
-    stats:[['100+','图文与视频作品'],['2.1 万','小红书总浏览'],['850+','小红书粉丝']], flow:['定位人群','确定选题','制作内容','分发复盘']
+    stats:[['100+','图文与视频作品'],['2.3 万','小红书总浏览'],['850+','小红书粉丝']], flow:['定位人群','确定选题','制作内容','分发复盘']
   },
   {
     id:'user', word:'USER OPERATIONS', name:'用户运营', tags:'用户定位 · 首次引导 · 反馈闭环',
@@ -112,12 +112,12 @@ const capabilities = [
   {
     id:'growth', word:'GROWTH OPERATIONS', name:'增长运营', tags:'内容获客 · 社群承接 · 推荐拉新',
     headline:'Haivis｜内容、社群与推荐官增长',
-    body:'产品上线后的两个月，围绕 AI 生图平台通过小红书、公众号、抖音和海外社媒触达目标人群，建立私域用户群承接产品兴趣，并提出推荐官计划扩展用户来源。',
+    body:'产品上线后的两个月，围绕 AI 生图平台通过小红书、公众号、抖音和海内外社媒触达目标人群，建立私域用户群承接产品兴趣，并提出推荐官计划扩展用户来源。',
     caseTitle:'Haivis｜内容、社群与推荐官增长',
     stats:[['近 2000','上线运营两个月新增注册用户'],['200+','推荐官计划带来用户增长'],['4%','注册用户付费转化率']],
     points:[
-      ['触达','小红书、公众号、抖音与海外社媒持续发布产品内容。'],
-      ['承接','建立 100+ 人私域用户群，沉淀问题、反馈与产品兴趣。'],
+      ['触达','观察同类电商生图平台的内容运营方式，结合产品相对优势，为电商设计用户和年轻女性用户分别设计选题与内容表达。'],
+      ['承接','建立 100+ 人私域用户群，解答使用问题；将用户对电商提示词的需求转化为后续内容选题。'],
       ['放大','提出推荐官计划，让已有用户参与产品传播与新用户引入。']
     ],
     flow:['内容触达','进入产品','社群承接','推荐增长']
@@ -179,6 +179,11 @@ const capabilities = [
   }
 ]
 
+// Normalize legacy portfolio snapshots to the confirmed resume figures.
+cases[1].metrics[2][0] = '30+'
+cases[1].details[1][1] = cases[1].details[1][1].replace('20 余条', '30 余条')
+capabilities[1].stats[1][0] = '2.3 万'
+
 const contentLabImages = [
   ['xiaochengxu-growth.png','小程序增长数据'],
   ['31afab35effce4fadd57a583cd27dd13.jpg','剪辑赛道获客'],
@@ -217,7 +222,7 @@ app.innerHTML = `
     <section class="results scene" data-scene="02">
       <div class="results-title">能力<em>成果</em></div>
       <div class="result-grid">
-        <article class="result-card result-card--content"><div class="result-card-top"><span>01</span><i>CONTENT OPS</i></div><h3>内容运营</h3><p>从选题、制作到平台适配与发布复盘，让内容在具体语境里被看见。</p><div class="result-data"><strong>32<span>万</span></strong><small>抖音阶段性总曝光</small><strong>2500<span>+</span></strong><small>获赞</small><strong>280<span>+</span></strong><small>阶段性粉丝</small></div></article>
+        <article class="result-card result-card--content"><div class="result-card-top"><span>01</span><i>CONTENT OPS</i></div><h3>内容运营</h3><p>从选题、制作到平台适配与发布复盘，让内容在具体语境里被看见。</p><div class="result-data"><strong>200<span>万</span></strong><small>抖音累计播放</small><strong>3<span>万</span></strong><small>累计获赞</small><strong>40<span>万</span></strong><small>单条最高播放</small></div></article>
         <article class="result-card result-card--ai-practice"><div class="result-card-top"><span>02</span><i>AI PRODUCT PRACTICE</i></div><h3>AI 产品实践</h3><p>从场景发现、产品构思到 AI 协作实现，持续把产品想法转化为可体验的作品。</p><div class="result-data"><strong>06</strong><small>产品项目</small><strong>04</strong><small>产品形态</small><strong>01</strong><small>独立上架小程序</small></div></article>
         <article class="result-card result-card--user-feedback"><div class="result-card-top"><span>03</span><i>USER &amp; PRODUCT FEEDBACK</i></div><h3>用户反馈与产品迭代</h3><p>连接用户、观察使用问题，再把分散反馈整理成可以推动产品优化的具体行动。</p><div class="result-data"><strong>100<span>+</span></strong><small>私域用户群规模</small><strong>30<span>+</span></strong><small>Bug 反馈</small><strong>200<span>+</span></strong><small>推荐官计划带来用户增长</small></div></article>
         <article class="result-card result-card--outcome"><div class="result-card-top"><span>04</span><i>AI PRODUCT OPS OUTCOMES</i></div><h3>AI 产品运营结果</h3><p>产品上线后，围绕 AI 生图产品完成内容触达、用户承接与产品反馈，形成从传播到转化的运营实践。</p><div class="result-data"><strong>近 2000</strong><small>上线运营两个月新增注册用户</small><strong>4<span>%</span></strong><small>注册用户付费转化率</small><strong>850<span>+</span></strong><small>Haivis 小红书粉丝</small></div></article>
